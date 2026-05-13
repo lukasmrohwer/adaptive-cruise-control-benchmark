@@ -19,7 +19,7 @@ def main():
     # create VNN-LIB 2.0 files given the following:
     VNN_COMP_TIMEOUT = 100  # per-instance verification timeout
     ONNX_MODEL_PATH = "onnx/acc-2000000-64-64-64-64-retrain-100000-200000-0.9.onnx"
-    num_instances = 5
+    num_instances = 1
 
     boxes = []
     for i in range(5):
